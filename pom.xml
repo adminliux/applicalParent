@@ -6,7 +6,6 @@
 	<artifactId>applicationParent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<name>applicationParent</name>
 	<url>http://maven.apache.org</url>
 
@@ -22,6 +21,16 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
 		<!-- fastJson -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
